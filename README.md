@@ -1,0 +1,5 @@
+# 概要
+
+調整さんで予定を作ってWebhookでURLを通知するバッチ
+
+https://discord.com/api/webhooks/884455219138797578/5v4678-n4QG9TThEhPbXF7t3k76RsVzU1BGL_I1kEAG7otsd6LOc6FpRrRXZ4qulKOcL

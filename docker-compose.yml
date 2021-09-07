@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  # app:
+  #   restart: always
+  #   build:
+  #     context: .
+  #     args: 
+  #       INSTALL_DEV: ${INSTALL_DEV-false}
+  #   depends_on:
+  #     - selenium
+  #   env_file: .env
+  #   volumes:
+  #     - .:/app:rw
+
+  selenium:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
+    shm_size: 2gb
+    # volumes:
+    #   - /dev/shm:/dev/shm
